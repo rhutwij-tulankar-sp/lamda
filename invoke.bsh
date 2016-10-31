@@ -1,0 +1,1 @@
+aws lambda  invoke --invocation-type Event --function-name --payload file://file-path/input.txt outputfile.txt
