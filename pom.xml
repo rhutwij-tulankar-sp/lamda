@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>doc-examples</groupId>
-	<artifactId>lambda-java-example</artifactId>
+	<artifactId>lambda-java-datapipeline</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>lambda-java-example</name>
-	<description>capturing kinesis event with aws lamda</description>
+	<name>lambda-java-datapipeline</name>
+	<description>Aws lamda project to caputre kinesis events and sent them in batch to dynamo and kinesiFirehose</description>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-lambda-java-core -->
 		<dependency>
